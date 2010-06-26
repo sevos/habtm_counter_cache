@@ -1,0 +1,110 @@
+  [4;36;1mArticle Create (0.4ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:19:50', 'value for title', '2010-06-25 21:19:50')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Create (0.3ms)[0m   [0;1mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:19:50', '2010-06-25 21:19:50', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:19:50', 'value for title', '2010-06-25 21:19:50')[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:19:50', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mArticle Create (0.8ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:20:04', 'value for title', '2010-06-25 21:20:04')[0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Create (0.3ms)[0m   [0;1mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:20:04', '2010-06-25 21:20:04', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:20:04', 'value for title', '2010-06-25 21:20:04')[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:20:04', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mArticle Create (0.4ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:21:03', 'value for title', '2010-06-25 21:21:03')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Create (0.3ms)[0m   [0;1mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:21:03', '2010-06-25 21:21:03', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:21:03', 'value for title', '2010-06-25 21:21:03')[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:21:03', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mCategory Create (0.3ms)[0m   [0mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:21:03', '2010-06-25 21:21:03', NULL)[0m
+  [4;36;1mArticle Create (0.1ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:21:03', 'value for title', '2010-06-25 21:21:03')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;36;1mCategory Update (0.1ms)[0m   [0;1mUPDATE "categories" SET "updated_at" = '2010-06-25 21:21:03', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mArticle Create (0.4ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:22:06', 'value for title', '2010-06-25 21:22:06')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Create (0.4ms)[0m   [0;1mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:22:06', '2010-06-25 21:22:06', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:22:06', 'value for title', '2010-06-25 21:22:06')[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:22:06', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mCategory Create (0.4ms)[0m   [0mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:22:06', '2010-06-25 21:22:06', NULL)[0m
+  [4;36;1mArticle Create (0.1ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:22:06', 'value for title', '2010-06-25 21:22:06')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;36;1mCategory Update (0.1ms)[0m   [0;1mUPDATE "categories" SET "updated_at" = '2010-06-25 21:22:06', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM "articles_categories" WHERE article_id = 1 AND category_id IN (1)[0m
+  [4;36;1mArticle Destroy (0.1ms)[0m   [0;1mDELETE FROM "articles" WHERE "id" = 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mArticle Create (0.4ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:22:19', 'value for title', '2010-06-25 21:22:19')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Create (0.3ms)[0m   [0;1mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:22:19', '2010-06-25 21:22:19', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:22:19', 'value for title', '2010-06-25 21:22:19')[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:22:19', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mCategory Create (0.3ms)[0m   [0mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:22:19', '2010-06-25 21:22:19', NULL)[0m
+  [4;36;1mArticle Create (0.1ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:22:19', 'value for title', '2010-06-25 21:22:19')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;36;1mCategory Update (0.4ms)[0m   [0;1mUPDATE "categories" SET "updated_at" = '2010-06-25 21:22:19', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM "articles_categories" WHERE article_id = 1 AND category_id IN (1)[0m
+  [4;36;1mArticle Destroy (0.1ms)[0m   [0;1mDELETE FROM "articles" WHERE "id" = 1[0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mArticle Create (0.4ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:23:49', 'value for title', '2010-06-25 21:23:49')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Create (0.3ms)[0m   [0;1mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:23:49', '2010-06-25 21:23:49', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:23:49', 'value for title', '2010-06-25 21:23:49')[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:23:49', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mCategory Create (0.4ms)[0m   [0mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:23:49', '2010-06-25 21:23:49', NULL)[0m
+  [4;36;1mArticle Create (0.1ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:23:49', 'value for title', '2010-06-25 21:23:49')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;36;1mCategory Update (0.1ms)[0m   [0;1mUPDATE "categories" SET "updated_at" = '2010-06-25 21:23:49', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT "categories".* FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDELETE FROM "articles_categories" WHERE article_id = 1 AND category_id IN (1)[0m
+  [4;36;1mArticle Destroy (0.1ms)[0m   [0;1mDELETE FROM "articles" WHERE "id" = 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mArticle Create (0.4ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:24:12', 'value for title', '2010-06-25 21:24:12')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mCategory Create (0.4ms)[0m   [0;1mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:24:12', '2010-06-25 21:24:12', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:24:12', 'value for title', '2010-06-25 21:24:12')[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:24:12', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mCategory Create (0.3ms)[0m   [0mINSERT INTO "categories" ("name", "created_at", "updated_at", "articles_count") VALUES('Category', '2010-06-25 21:24:12', '2010-06-25 21:24:12', NULL)[0m
+  [4;36;1mArticle Create (0.1ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at") VALUES('2010-06-25 21:24:12', 'value for title', '2010-06-25 21:24:12')[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "articles_categories" ("category_id", "article_id") VALUES (1, 1)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;36;1mCategory Update (0.1ms)[0m   [0;1mUPDATE "categories" SET "updated_at" = '2010-06-25 21:24:12', "articles_count" = 1 WHERE "id" = 1[0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT "categories".* FROM "categories" INNER JOIN "articles_categories" ON "categories".id = "articles_categories".category_id WHERE ("articles_categories".article_id = 1 ) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDELETE FROM "articles_categories" WHERE article_id = 1 AND category_id IN (1)[0m
+  [4;35;1mArticle Destroy (0.1ms)[0m   [0mDELETE FROM "articles" WHERE "id" = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "articles" INNER JOIN "articles_categories" ON "articles".id = "articles_categories".article_id WHERE ("articles_categories".category_id = 1 ) [0m
+  [4;35;1mCategory Update (0.1ms)[0m   [0mUPDATE "categories" SET "updated_at" = '2010-06-25 21:24:12', "articles_count" = 0 WHERE "id" = 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m

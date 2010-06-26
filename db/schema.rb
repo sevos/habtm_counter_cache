@@ -9,17 +9,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100625210406) do
+ActiveRecord::Schema.define(:version => 20100626163208) do
+
+  create_table "article_categorizations", :force => true do |t|
+    t.integer  "article_id"
+    t.integer  "category_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "articles", :force => true do |t|
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "articles_categories", :id => false, :force => true do |t|
-    t.integer "article_id"
-    t.integer "category_id"
   end
 
   create_table "categories", :force => true do |t|
